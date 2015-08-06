@@ -3,7 +3,7 @@ CodeIgniterXor
 
 PoC script to decode CodeIgniter &lt;= 2.1.4 session cookies that use _xor_encode() method.
 
-Full details availalbe on on the following blog post: http://www.dionach.com/blog/codeigniter-session-decoding-vulnerability
+Full details availalbe on on the following blog post: https://www.dionach.com/blog/codeigniter-session-decoding-vulnerability
 
 
 Usage
