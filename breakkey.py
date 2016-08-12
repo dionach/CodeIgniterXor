@@ -53,7 +53,7 @@ def getcookie(url):
     headers = response.info()
     for key in headers:
         if key == "set-cookie":
-            m = re.findall("([a-zA-Z0-9_\-]+)=([a-zA-Z0-9\+%=/]+);", headers[key])
+            m = re.findall("([a-zA-Z0-9_\-]+)=([a-zA-Z0-9\+%=/._]+);", headers[key])
             for name, cookieurl in m:
                 if len(cookieurl) < 100:
                     continue
